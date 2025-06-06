@@ -99,6 +99,7 @@ This project is licensed under the MIT License.
 | **State Handling in Chatbot Flow** | Simulating cart memory and transitioning from one state (e.g., browsing) to another (e.g., ordering) smoothly.  | Created simple in-memory session variables and flags in Python Flask to track conversation states.                                              |
 | **Deployment Integration**         | Deploying a Flask backend with a responsive frontend on Vercel, which is frontend-first.                        | Deployed frontend on Vercel and simulated backend locally; noted in README that backend can be hosted on Render or Railway for full deployment. |
 
+Working on this chatbot helped me understand how to translate user intent into code, handle product data effectively, and deliver a responsive interface that simulates a real shopping experience. These hands-on challenges reinforced my learning across backend logic, frontend UI, and basic chatbot design.
 ## 👨‍💻 Author
 
 **Tanmay Singh**  
