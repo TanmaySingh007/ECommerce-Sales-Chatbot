@@ -91,6 +91,13 @@ Visit `http://127.0.0.1:5000` in your browser to interact with the chatbot.
 This project is licensed under the MIT License.
 
 ---
+| **Challenge**                      | **Description**                                                                                                 | **Solution Implemented**                                                                                                                        |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Natural Language Parsing**       | Interpreting varied user inputs like “phones under 5000” or “show books” required flexible keyword recognition. | Implemented basic keyword-based matching using `if` conditions and regex; future scope includes NLP integration using spaCy or Rasa.            |
+| **Database Querying**              | Creating real-time filtered responses based on price, category, or product keywords.                            | Designed efficient SQL queries with `LIKE`, `BETWEEN`, and category filters on SQLite tables.                                                   |
+| **UI Responsiveness**              | Ensuring that the chatbot looked clean and functional on mobile, tablet, and desktop.                           | Used media queries in CSS and flexible layout units (%, vw, vh) to optimize for multiple screen sizes.                                          |
+| **State Handling in Chatbot Flow** | Simulating cart memory and transitioning from one state (e.g., browsing) to another (e.g., ordering) smoothly.  | Created simple in-memory session variables and flags in Python Flask to track conversation states.                                              |
+| **Deployment Integration**         | Deploying a Flask backend with a responsive frontend on Vercel, which is frontend-first.                        | Deployed frontend on Vercel and simulated backend locally; noted in README that backend can be hosted on Render or Railway for full deployment. |
 
 ## 👨‍💻 Author
 
