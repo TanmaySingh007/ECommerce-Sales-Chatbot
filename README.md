@@ -5,109 +5,143 @@ In the competitive domain of online retail, effective customer engagement is key
 
 The chatbot is tailored for an e-commerce platform specializing in a specific product category (e.g., books, electronics, or clothing), enabling smooth interaction, real-time responses, and data-driven suggestions.
 
-🎯 Objectives
-Build a conversational chatbot interface for product search, filtering, and purchasing
+📌 Project Overview
 
-Simulate backend logic to handle user queries via REST APIs
+🛠️ Tech Stack
 
-Create and manage a mock inventory using a relational database
+🚀 Features
 
-Store session data for interaction history and analytics
+🧩 Folder Structure
 
-Deliver clean, modular, and well-documented Python code
+🔧 Setup & Installation
 
-🧩 Key Features
-💬 Chatbot Interface
-Responsive UI (mobile, tablet, desktop compatible)
+▶️ How to Run
 
-Clean chat interface with reset functionality and timestamps
+📝 Future Enhancements
 
-Real-time interaction with backend services
+👨‍💻 Author & Links
 
-Persistent session tracking for better continuity
-
-🔐 User Management
-Login/Signup flow with session-based authentication
-
-Secure chat sessions linked to user identity
-
-📦 Inventory & Backend
-Python-based RESTful API (Flask)
-
-Mock e-commerce inventory with 100+ products
-
-Product search, filter, and detail retrieval
-
-Structured error handling and logging
-
-🗂️ Data Handling
-Session-wise storage of chat interactions
-
-Support for future analytics and customer behavior analysis
-
-🧰 Tech Stack
-Layer	Tools Used
-Frontend	HTML5, CSS3, JavaScript (Vanilla or React)
-Backend	Python (Flask), RESTful API
-Database	SQLite / PostgreSQL (mock inventory)
-Auth & State	Flask-Login / Session Management
-Hosting (Opt)	Render / Heroku / Vercel (Frontend)
-
-📂 Project Structure
-bash
+markdown
 Copy
 Edit
-ecommerce-chatbot/
+# 🛍️ E-Commerce Sales Chatbot
+
+An intelligent chatbot built to simulate a complete e-commerce experience — from browsing products to placing mock orders — all through a friendly conversational interface.
+
+Live Demo: [Click Here](https://e-commerce-sales-chatbot-i0yd4isx9.vercel.app/)  
+GitHub Repo: [TanmaySingh007/ECommerce-Sales-Chatbot](https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot)
+
+---
+
+## 📌 Project Overview
+
+This chatbot simulates a digital shopping assistant, allowing users to:
+- Explore product categories
+- Search and filter items
+- View product details
+- Place mock orders conversationally
+
+Built using **Python Flask** for backend processing and **HTML/CSS/JavaScript** for an interactive, responsive frontend. It is ideal for businesses looking to automate and simplify the product discovery and purchase funnel using chat interfaces.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- HTML5  
+- CSS3  
+- JavaScript  
+- Jinja2 (templating)
+
+**Backend:**  
+- Python 3.11  
+- Flask  
+- SQLite (mock product database)  
+
+**Deployment & Tools:**  
+- Vercel (Frontend Deployment)  
+- GitHub  
+- VS Code
+
+---
+
+## 🚀 Key Features
+
+- 💬 Chat-based interaction for navigating products
+- 🔍 Search and filter functionalities (by category, keyword, or price)
+- 🛒 Simulated cart and order placement system
+- 📱 Responsive UI (Mobile + Desktop optimized)
+- 💾 Mock database with sample inventory
+
+---
+
+## 🧩 Folder Structure
+
+ECommerce-Sales-Chatbot/
 │
-├── frontend/             # UI, chatbot interface, static assets
-├── backend/              # Flask app, routes, business logic
-├── data/                 # Mock inventory and user data
-├── docs/                 # Diagrams, architecture, and documentation
-└── README.md
-📄 Documentation Includes
-System architecture diagrams
+├── static/ # CSS, JS, Images
+│ ├── css/
+│ └── js/
+│
+├── templates/ # HTML (Jinja2) Templates
+│ └── index.html
+│ └── chat.html
+│
+├── database/ # SQLite DB (mock data)
+│ └── products.db
+│
+├── app.py # Main Flask app
+├── requirements.txt # Dependencies
+└── README.md # Project Info
 
-Backend API design and endpoints
+yaml
+Copy
+Edit
 
-Database schema & sample data generation
+---
 
-Development setup and deployment guide
+## 🔧 Setup & Installation
 
-Challenges faced & how they were handled
+### 1. Clone the Repo
 
-Justification of tools, libraries, and design patterns
-
-✅ How to Run Locally
+```bash
+git clone https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot.git
+cd ECommerce-Sales-Chatbot
+2. Create a Virtual Environment
 bash
 Copy
 Edit
-# Clone the repository
-git clone https://github.com/your-username/ecommerce-chatbot.git
-
-# Backend setup
-cd backend
+python -m venv venv
+source venv/bin/activate    # On Windows: venv\Scripts\activate
+3. Install Dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
+4. Run the App
+bash
+Copy
+Edit
 python app.py
+Visit http://127.0.0.1:5000 in your browser.
 
-# Frontend setup
-cd ../frontend
-# If React:
-npm install
-npm start
-# Or open index.html for static version
-🧠 Learnings & Takeaways
-This project emphasizes:
+▶️ Demo Video (optional)
+If available, you can embed or link to a walkthrough video.
 
-The importance of modular, scalable architecture
+📝 Future Enhancements
+✅ Integrate payment gateway APIs (Razorpay/Stripe)
 
-Using REST APIs for decoupled client-server interaction
+✅ Add authentication & order history
 
-Data flow in conversational interfaces
+✅ Use NLP models (like Dialogflow or Rasa) for smarter conversations
 
-Real-world application of Python and web development best practices
+✅ Migrate to PostgreSQL for production-grade DB
 
-🤝 Contributions
-Pull requests and feedback are welcome. For major changes, please open an issue first to discuss what you’d like to improve.
+👨‍💻 Author
+Tanmay Singh
+LinkedIn • GitHub
 
-📎 License
-This project is licensed under the MIT License.
+If you found this project helpful, feel free to ⭐️ the repo!
+
+📜 License
+This project is licensed under the MIT License. See LICENSE file for details.
