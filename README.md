@@ -18,6 +18,7 @@ An intelligent chatbot that simulates a complete e-commerce shopping experience 
 ---
 
 ## 🛠️ Tech Stack
+Main Stack-Typescript,react,node.js
 
 **Frontend:**  
 - HTML, CSS, JavaScript  
