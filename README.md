@@ -10,8 +10,8 @@ The **ECommerce Sales Chatbot** is a smart, conversational assistant designed to
 
 ![Homepage Screenshot](https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot/blob/f6b865e0ae9f23efdfe824b0271cc6a2a33e297c/bot%201.png)
 ![Homepage Screenshot](https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot/blob/188b3780b588f3368473dcbdf9ed472ed884852c/bot%202.png)
-![Screenshot](https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot/blob/11c65a2245f1c03979bd03eae1638fda8c573568/bot%203.png)
-![Screenshot](https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot/blob/main/public/screenshot.png)
+![ShopBot Screenshot](https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot/blob/11c65a2245f1c03979bd03eae1638fda8c573568/bot%203.png)
+![ShopBot Screenshot](https://github.com/TanmaySingh007/ECommerce-Sales-Chatbot/blob/009bd93d2dee5e9eab7c123ddf178f72c1220228/bot%204.png)
 <!-- Make sure you upload the screenshot to your repo's /public or root folder and update the link accordingly -->
 
 ---
